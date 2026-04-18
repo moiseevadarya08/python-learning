@@ -16,3 +16,9 @@ for i in numbers:
     if i % 2 == 0:
         count += 1
 print(count)
+
+# Задача 4
+numbers = [4, 9, 1, 12, 7, 6]
+for i in numbers:
+    if i > 5:
+        print(i)
