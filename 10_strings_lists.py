@@ -30,3 +30,12 @@ for i in text:
         filtered.append(i)
 max_value = max(filtered)
 print(max_value)
+
+# Задача 5: Найти сумму цифр больше 4 в строке 
+text  = "a1b2c3d4e5f6g7h8"
+total = 0
+for i in text:
+    if i.isdigit():
+        if int(i) > 4:
+             total += int(i)
+print(total)
