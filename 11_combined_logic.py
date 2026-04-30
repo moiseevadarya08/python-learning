@@ -49,4 +49,16 @@ for i in text:
 average = total / count
 print(average)
 
+# Задача 6: Разница между суммой и количеством нечётных цифр больше 4
+text = "b7a2c9d4e1f8g3h6i5j0k7"
+total = 0
+count = 0
+for i in text:
+    if i.isdigit():
+        if int(i) > 4 and int(i) % 2 != 0:
+            total += int(i)
+            count += 1
+result = total - count
+print(result)
+
 
